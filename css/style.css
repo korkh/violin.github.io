@@ -1,0 +1,409 @@
+html {
+	margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+}
+
+
+/****************I don't know how by other method to remove scroll-x bar
+I know why it's appearing but where my mistake - I can't find! That's why I've used overflow-x:hidden
+
+ *************************/
+
+body {
+	color: #8f8f8f;
+	font: 18px Tahoma, sans-serif;
+	background-color: #fffff2;
+	border-top: 5px solid #7e7e7e;
+	margin: auto;
+	/* width: 100%; */
+	/* overflow-x: hidden; */
+}
+input[type="text"] {
+	background-color: #f3f3f3;
+	border: 1px solid linear-gradient(to bottom right, #6c00d9, #ff00ff);
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+button {
+	color: #fff;
+	background: linear-gradient(to bottom right, #6c00d9, #ff00ff);
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	margin: 10px 0;
+}
+
+.wrapper {	
+	margin: auto;
+}
+header {
+	padding: 20px 0;
+	background: transparent url(../img/notes-bg.jpg);
+}
+
+form[name="search"] {
+	float: right;
+}
+
+/*Inserting styles for navigational menu *********************************/
+
+}
+
+nav a {
+	display: inline-block;
+	background: linear-gradient(to bottom right, #6c00d9, #ff00ff);
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background: linear-gradient(to bottom right, #6c00d9, #ff00ff);
+  color: white;
+  padding: 10px 10px;
+  transition: 0.3s ease-out;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.top-menu {
+	margin-left: auto;
+    margin-right: auto;
+	width: 510px;
+	clear: right;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 10px;
+	margin: 0;
+}
+
+.top-menu li.active {
+	background: linear-gradient(to bottom right, #6c00d9, #ff00ff);
+	color: #fff;
+	margin-left: 20px;
+}
+
+.top-menu a {
+	color: #b2b2b2;
+}
+
+/* styles for heading ***********************************************/
+#heading {
+	background: transparent url(../img/notes.jpg);
+	margin: 30px 0;
+	padding-left: 20px;
+}
+
+h1 {
+	display: inline-block;
+	color: #7e7e7e;
+	font: 40px/40px 'Oswald', sans-serif;
+	background: url(../images/bg.png);
+	margin: 0;
+	padding: 0 10px;
+}
+
+/* styles for side bar menu ******************************************/
+aside {
+	float: left;
+	width: 250px;
+}
+section {
+	margin-left: 320px;
+	padding-bottom: 50px;
+}
+
+/* styles for aside sub-menu ******************************************/
+.aside-menu li {
+	font-weight: 300;
+	list-style-type: square;
+	border-top: 1px solid #e7e7e7;
+}
+
+.aside-menu li:first-child {
+	font-size: 24px;
+	border: none;
+	list-style-type: none;
+	
+}
+
+.aside-menu li.active {
+	color: background: linear-gradient(to bottom right, #6c00d9, #ff00ff);
+}
+
+.aside-menu a {
+	color: #8f8f8f;
+}
+
+#school-pic img {
+	padding: 10px;
+}
+
+/* styles for side bar's bottom *************************************/
+
+aside h2 {
+	background: linear-gradient(to bottom right, #6c00d9, #ff00ff);
+	font: 14px 'Oswald', sans-serif;
+	color: #fff;
+	padding: 10px;
+	margin: 30px 0 0 0;
+}
+
+aside p {
+	
+	padding: 10px;
+	margin: auto;
+}
+#fig-cap-tx {
+	text-align: center;
+}
+
+/* Styles for quotation *********************************************/
+
+blockquote {
+	margin: 0;
+	background: linear-gradient(to bottom right, #6c00d9, #ff00ff);
+	padding: 10px 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+blockquote p {
+	color: #fff;
+	font-style: italic;
+	font-size: 33px;
+	margin: 0;
+}
+
+blockquote cite {
+	display: block;
+	font-size: 20px;
+	font-style: normal;
+	color: #ffdfbf;
+	margin: 0;
+	text-align: right;
+}
+/* Styles for pictures below main section, music instruments or etc. */
+
+.gallery-img {
+	display: inline-block;
+	margin-left: 40px;
+	
+	
+	}
+
+.gallery-img img{
+	display: inline-block;
+	margin: 15px;
+	
+	}
+
+figure figcaption {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 5px;
+}
+
+figure figcaption span {
+	display: block;
+	font-size: 14px;
+	color: linear-gradient(to bottom right, #6c00d9, #ff00ff);
+}
+
+/* Syles for lower part of page "our team" ****************************/
+
+section > h2 {
+	background: linear-gradient(to bottom right, #6c00d9, #ff00ff);
+	font: 30px 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	padding: 0 10px;
+	margin: 30px 0 0 0;
+}
+
+
+/* Styles for our team **************************************************/
+
+figure figcaption {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 10px;
+	text-align: center;
+}
+
+figure div {
+	font-size: 14px;
+	color: linear-gradient(to bottom right, #6c00d9, #ff00ff);
+}
+
+.team-row figure {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	margin: 5px;
+	margin-left: 30px;
+	margin-top: 10px;	
+	padding: auto;
+}
+
+/* Styles for our footer ************************************************/
+
+footer {
+	background: #7e7e7e;
+	color: #dbdbdb;
+	font-size: 11px;
+	text-align: center;
+	
+}
+
+#footer {
+	max-width: fit-content;
+	margin: auto;
+	padding: 10px;
+	height: auto;
+	position: relative;
+}
+
+.footer-cor {
+	background: #7e7e7e;
+	color: #dbdbdb;
+	font-size: 11px;
+	text-align: center;
+}
+
+/* Styles for Tweeter's block *********************************************/
+
+#footer h3 {
+	font: 14px 'Oswald', sans-serif;
+	color: #fff;
+	border-bottom: 1px solid #919191;
+	
+}
+
+#twitter time a {
+	color: #b4aeae;
+}
+
+#footer p {
+	margin: 5px 0;
+}
+
+#twitter {
+	display: inline-block;
+	marging-left: 50px;
+	float: left;
+	width: 300px;
+	
+}
+
+#twitter p {
+	padding-right: 15px;
+}
+
+/* Styles for Site map ****************************************************/
+
+footer a {
+	color: #dbdbdb;
+}
+
+#sitemap {
+	width: 150px;
+	float: left;
+	margin-left: 20px;
+	padding-right: 15px;
+}
+
+#sitemap div {
+	display: inline-block;
+}
+
+#sitemap div + div {
+	margin-left: 20px;
+}
+
+#sitemap a {
+	display: block;
+	text-decoration: none;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+#sitemap a:hover {
+	text-decoration: underline;
+}
+
+/* Styles for Social networks using sprites ****************************************************/
+
+#social {
+	marging: auto;
+	padding: auto;
+	float: left;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #2626ff;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: linear-gradient(to bottom right, #6c00d9, #ff00ff);
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* temporary removed logo ----*/
+
+/* #footer-logo { */
+	/* float: right; */
+	/* margin-top: 10px; */
+	/* font-size: 10px; */
+	/* text-align: right; */
+/* } */
+
+.copyright {
+	display: inline-block;
+	margin: 20px;
+	justify-content: center;
+	}
+.copyright-text {
+	display: block;
+	margin: 10px;	
+	
+}

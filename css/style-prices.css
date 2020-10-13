@@ -1,0 +1,100 @@
+
+h1 {
+	marging: 30px;
+	text-align: center;
+	}
+
+.subscribtion {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	font-size: 1.1em;
+	text-align: left;
+	text-indent: 1.5em;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.subscribtion p {
+	padding: 0 30px 0 30px;
+	line-height: 200%;	
+}
+
+.header-sub h1{
+	padding-top: 30px;
+	font-size: 1.5em;
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: auto;
+	clear: left;
+}
+.header-sub a {
+	display: inline-block;
+	background-color: #d96c00;
+	color: #dfdfd0;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.header-sub a:hover {
+	display: inline-block;
+	background-color: #d96c00;
+	color: #fffff2;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.why {
+	margin: 30px;
+	padding: auto;
+	width: calc(100%-20px);
+	height: auto;
+}
+
+.why-online1 {
+	display: inline-block;	
+	width: 30%;
+	height: auto;
+	margin: 10px;
+	padding: auto;
+	float: left;	
+	}
+
+.why-online1 img{		
+	width: 100%;
+	height: auto;	
+}
+.why-online2 {
+	display: inline-block;	
+	width: 30%;
+	height: auto;
+	margin: 10px;
+	padding: auto;
+	float: left;
+	
+}
+
+.why-online2 img{		
+	width: 100%;
+	height: auto;	
+}
+.why-online3 {
+	display: inline-block;	
+	width: 30%;
+	height: auto;
+	margin: 10px;
+	padding: auto;
+	float: left;
+	
+}
+.why-online3 img{		
+	width: 100%;
+	height: auto;	
+}
+ .why p {
+	font-size: 18px;
+ }
+ 
